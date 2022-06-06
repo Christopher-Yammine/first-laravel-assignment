@@ -10,4 +10,6 @@ Route::get('/checkPalindrome', [tasks::class, 'checkPalindrome'])->name("checkPa
 Route::get('/randomGroups', [tasks::class, 'randomGroups'])->name("randomGroups");
 Route::get('/randomize', [tasks::class, 'randomize'])->name("randomize");
 Route::get('/timeDiff', [tasks::class, 'timeDiff'])->name("timeDiff");
+Route::get('/onlyText', [tasks::class, 'onlyText'])->name("onlyText");
+Route::get('/beer',[tasks::class,'beer'])->name('beer');
 ?>
